@@ -80,6 +80,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    transition: color 3s ease-out;
 }
 
 nav a:link {
@@ -200,6 +201,11 @@ td {
 
 tr:nth-of-type(odd) {
     background-color: #F5FAFC;
+}
+
+video {
+    float: right;
+    margin: 1em;
 }
 
 @media (max-width: 1024px) {
